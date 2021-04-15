@@ -1,0 +1,163 @@
+*{
+    margin:0;
+}
+
+@font-face {
+	font-family: "RussoOne";
+	src: url('RussoOne.ttf');
+}
+
+@font-face {
+	font-family: "Quicksand";
+	src: url('Quicksand.ttf');
+}
+
+BODY{
+    display:flex;
+    flex-direction:column;
+}
+HEADER{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    height:15%;
+    width:100%;
+    background-color:#9494b8;
+}
+#logosaison{
+    display:flex;
+    align-items:baseline;
+    height:80%;
+    font-size:5vw;
+}
+
+#logo{
+    height:100%;
+}
+
+#logosaison A{
+    height:80%;
+    display:flex;
+    align-items:baseline;
+    text-decoration:none;
+    color:#000000;
+}
+#numero{
+    font-family:'RussoOne',Arial,Sans-serif;
+}
+
+NAV{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    font-family:'Quicksand',Arial,Sans-serif;
+    font-size:150%;
+}
+
+NAV A{
+    color:#000000;
+    text-decoration:none;
+}
+
+#actif {
+    border-bottom : 3px #00BFFF solid;
+}
+
+#titreresultat{
+    margin: 50px 0px;
+    text-align:center;
+    width:100%;
+    min-height:5%
+}
+
+H1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:200%;
+}
+
+#tableau{
+    display: block;
+    width:100%;
+}
+#classement {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-size:175%;
+    width:100%;
+}
+
+#classement th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color:#000000;
+    color: white;
+}
+  
+.one{
+	background-color:#FFD700;
+}
+
+.two{
+	background-color:#C0C0C0;
+}
+
+.three{
+    background-color:#CD7F32;
+}
+
+TH {
+	padding: 15px;
+	text-align:center;
+}
+TR{
+	background-color:#FFDEAD;
+}
+TR:nth-child(even){
+	background-color:#E9C9B1;
+}
+td{
+    text-align: center;
+}
+.category{
+    display: none;
+}
+@media only screen and (min-width: 600px){
+    TR:hover, .one:hover, .two:hover, .three:hover, .category:hover{
+        cursor:pointer;
+        background-color: #0000FF;
+        color:#FFFFFF;
+    }
+    #tableau{
+        overflow-x: scroll;
+    }
+}
+@media only screen and (max-width: 600px){
+    tbody {
+       display: flex;
+       flex-flow: column;
+    }
+    tr{
+       display: flex;
+       flex-flow: column;
+       align-items: center;
+       border-top: 10px black solid;
+       padding: 20px 0px;
+    }
+    thead{
+        display: none;
+    }
+    .category{
+            margin: 10px;
+            font-weight: bold;
+            display:table-cell;
+            text-decoration: underline;
+    }
+    #classement{
+        font-size: 30px;
+    }
+}
