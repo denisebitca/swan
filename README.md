@@ -1,30 +1,21 @@
-# **RAPPORT PROJET TUTORE**
+# **SWAN**
 
-## **Remerciments**
+## **Remerciements**
 
 Merci à Erika Carter du Noun Project pour [l'icône Swan](swan/logo.png).
 Ce logiciel a été crée dans le cadre du projet tutoré du premier semestre à l'IUT d'Orsay.
 
-Redistribution de ce logiciel dans toutes ses formes est autorisée uniquement avec l'accord de [Benjamin BREHIER--CARDOSO](https://benjaminbrehier.fr), [Clément GERAUDIE](https://clementgeraudie.fr) et [Rafael BITCA](https://rafaelbitca.me).
+La redistribution de ce logiciel dans toutes ses formes est autorisée uniquement avec l'accord de [Benjamin BREHIER--CARDOSO](https://benjaminbrehier.fr), [Clément GERAUDIE](https://clementgeraudie.fr) et [Rafael BITCA](https://rafaelbitca.me).
 
-## **Planning**
+## *Repartition du travail*  
 
-### *Planning général*
-
-- 18/11/2020 : Formation de notre groupe, attribution des rôles et choix du vautour sur Moodle
-- 13/12/2020 : Début de la rédaction du rapport pour le rendu préliminaire
-- 20/12/2020 : Réunion pour faire le point sur le projet
-- 29/12/2020 : Touches finales, fin de la documentation et fin de la rédaction du rapport
-
-### *Planning des équipes*  
-
-#### *C++* : Benjamin BREHIER--CARDOSO et Rafael BITCA
+### *C++* : Benjamin BREHIER--CARDOSO et Rafael BITCA
 
 - 16/12/2020 : Programmation du code de lecture des stratégies et d'attribution des points
 - 20/12/2020 : Programmation du tri fusion et début de l'assemblage du C++ et du HTML
 - 27/12/2020 : Fin de la programmation des distinctions, des tests et début de la documentation
 
-#### *HTML - CSS* : Clément GERAUDIE
+### *HTML - CSS* : Clément GERAUDIE
 
 - 16/12/2020 : Commencement des maquettes pour le design
 - 18/12/2020 : Création du design en HTML et CSS
@@ -131,13 +122,3 @@ Réferrez-vous à la documentation pour plus d'informations.
 - Vous avez moins de deux stratégies différentes dans votre fichier CSV.
 
   - Essayez ``./strategy2html tests/test1-erreur5.csv`` pour tester cette erreur.
-
-## **Exemples**
-
-### *Capture d'écran de la première saison Swan sur PC*
-![1ère capture d'écran de la première saison Swan sur PC](https://pic.infini.fr/UytG6ua5/WZNfzc17.png)
-![2ère capture d'écran de la première saison Swan sur PC](https://pic.infini.fr/cbAQVaeP/4jhVomP7.png)
-
-### *Capture d'écran de la première saison Swan sur mobile*
-![1ère capture d'écran de la première saison Swan sur mobile](https://pic.infini.fr/rQwn05C1/JY39zOls.png)
-![2eme capture d'écran de la première saison Swan sur mobile](https://pic.infini.fr/KuIRIDJH/HU93x8wY.png)
