@@ -5,11 +5,11 @@
 Merci à Erika Carter du Noun Project pour [l'icône Swan](swan/logo.png).
 Ce logiciel a été crée dans le cadre du projet tutoré du premier semestre à l'IUT d'Orsay.
 
-La redistribution de ce logiciel dans toutes ses formes est autorisée uniquement avec l'accord de [Benjamin BREHIER--CARDOSO](https://benjaminbrehier.fr), [Clément GERAUDIE](https://clementgeraudie.fr) et [Rafael BITCA](https://rafaelbitca.me).
+La redistribution de ce logiciel dans toutes ses formes est autorisée uniquement avec l'accord de [Benjamin BREHIER--CARDOSO](https://benjaminbrehier.fr), [Clément GERAUDIE](https://clementgeraudie.fr) et Denise BITCA.
 
 ## *Repartition du travail*  
 
-### *C++* : Benjamin BREHIER--CARDOSO et Rafael BITCA
+### *C++* : Benjamin BREHIER--CARDOSO et Denise BITCA
 
 - 16/12/2020 : Programmation du code de lecture des stratégies et d'attribution des points
 - 20/12/2020 : Programmation du tri fusion et début de l'assemblage du C++ et du HTML
@@ -104,7 +104,7 @@ Réferrez-vous à la documentation pour plus d'informations.
 
 >``Erreur à la ligne x du fichier. Nombre de champs incorrects.``
 
-- Votre fichier CSV contient un nombre de champs incorrecte après la première ligne. Cette ligne doit avoir trois champs. Voici un exemple d'une ligne après la première ligne bien formattée : ``rafael.bitca,toto,1,8|9|8|7|8|9|7|8``
+- Votre fichier CSV contient un nombre de champs incorrecte après la première ligne. Cette ligne doit avoir trois champs. Voici un exemple d'une ligne après la première ligne bien formattée : ``denise.bitca,toto,1,8|9|8|7|8|9|7|8``
 
   - Essayez ``./strategy2html tests/test1-erreur3.csv`` pour tester cette erreur.
 
