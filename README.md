@@ -5,7 +5,7 @@
 Merci à Erika Carter du Noun Project pour [l'icône Swan](swan/logo.png).
 Ce logiciel a été crée dans le cadre du projet tutoré du premier semestre à l'IUT d'Orsay.
 
-La redistribution de ce logiciel dans toutes ses formes est autorisée uniquement avec l'accord de [Benjamin BREHIER--CARDOSO](https://benjaminbrehier.fr), [Clément GERAUDIE](https://clementgeraudie.fr) et Denise BITCA.
+La redistribution de ce logiciel dans toutes ses formes est autorisée uniquement avec l'accord de [Benjamin BREHIER--CARDOSO](https://benjaminbrehier.fr) et Denise BITCA.
 
 ## *Repartition du travail*  
 
@@ -15,7 +15,7 @@ La redistribution de ce logiciel dans toutes ses formes est autorisée uniquemen
 - 20/12/2020 : Programmation du tri fusion et début de l'assemblage du C++ et du HTML
 - 27/12/2020 : Fin de la programmation des distinctions, des tests et début de la documentation
 
-### *HTML - CSS* : Clément GERAUDIE
+### *HTML - CSS* : Benjamin BREHIER--CARDOSO et Denise BITCA
 
 - 16/12/2020 : Commencement des maquettes pour le design
 - 18/12/2020 : Création du design en HTML et CSS
